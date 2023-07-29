@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="StateView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="msv_animateViewChanges">false</item>
+        <item name="msv_emptyView">@layout/layout_state_empty</item>
+        <item name="msv_errorView">@layout/layout_state_error</item>
+        <item name="msv_loadingView">@layout/layout_state_loading</item>
+        <item name="msv_viewState">content</item>
+    </style>
+
+    <!--tab文字背景 -->
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorGitHubGreen</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/colorGitHubGreen</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_66</item>
+    </style>
+
+
+    <!--TabLayout 取消tab大写-->
+    <style name="TabLayoutTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <!--TabLayout 格式   app:tabGravity -->
+    <style name="tabLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_title</item>
+        <item name="android:textSize">13sp</item>
+        <item name="tabIndicator">@drawable/shape_tab_indicator</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabTextAppearance">@style/TabLayoutTextStyle</item>
+        <item name="tabSelectedTextColor">@color/colorGitHubGreen</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabBackground">@drawable/ripple_tab_bg</item>
+    </style>
+
+    <!-- 圆角图片 -->
+    <style name="roundedImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!--分类详情 - 标题收起时的字体颜色-->
+    <style name="collapsing_title_style_collapsed" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--分类详情 - 标题展开时的字体颜色-->
+    <style name="collapsing_title_style_expanded" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+</resources>

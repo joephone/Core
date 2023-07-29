@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.transcendence.core" >
+
+    <application>
+        <activity
+            android:name=".publicModule.web.act.WanWebActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            />
+
+        <activity android:name=".publicModule.web.act.AgentWebAc"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            />
+
+        <activity android:name=".publicModule.picture.act.PictureViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImageTheme"
+            />
+
+
+        <service
+            android:name=".publicModule.picture.service.SaveImageService"
+            />
+
+
+
+    </application>
+
+
+</manifest>

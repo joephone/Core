@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_status_transparent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+
+        <FrameLayout
+            android:id="@+id/fl_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_back">
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:src="@drawable/ic_back_white_24dp"
+                />
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="TitleName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_title" />
+
+
+        <FrameLayout
+            android:id="@+id/fl_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/standard_padding">
+
+
+            <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:gravity="center|right"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_title"
+                tools:text="右" />
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:visibility="invisible"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:gravity="center" />
+
+
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

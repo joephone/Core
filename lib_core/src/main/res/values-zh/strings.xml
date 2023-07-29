@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">玩</string>
+
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <!-- system -->
+    <string name="request_fail">请求失败</string>
+    <string name="exit_app">退出应用</string>
+    <string name="private_policy">隐私政策</string>
+    <string name="public_notice">公告</string>
+    <string name="crash_restart">运行意外，正在重新启动</string>
+    <string name="exit_app_warning">再按一次返回键退出程序</string>
+    <!-- common -->
+    <string name="id">ID</string>
+    <string name="exit">退出</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="level">Level</string>
+    <string name="accept">同意</string>
+    <string name="cancel">取消</string>
+    <string name="open">打开</string>
+    <string name="ok">确定</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="nickname">昵称</string>
+    <string name="address">地区</string>
+    <string name="next">下一步</string>
+    <string name="search">搜索</string>
+    <string name="edit">编辑</string>
+    <string name="tip">提示</string>
+    <string name="skip">跳过</string>
+    <string name="pay">支付</string>
+    <string name="to_app_setting">跳转到应用详情页</string>
+    <!-- tab -->
+    <string name="tab_home">首页</string>
+    <string name="tab_hierarchy">体系</string>
+    <string name="tab_wx_public_account">公众号</string>
+    <string name="tab_me">我的</string>
+    <string name="tab_beauty">福利社</string>
+    <!--  me -->
+    <string name="user_info">用户信息</string>
+    <string name="user_name">用户名</string>
+    <string name="my_coin">我的积分</string>
+    <string name="my_read_record">阅读记录</string>
+    <string name="my_score_list">积分记录</string>
+    <string name="my_share">我的分享</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="read_later">稍后阅读</string>
+    <string name="my_open_source">开源项目</string>
+    <string name="about_me">关于作者</string>
+    <string name="system_setting">系统设置</string>
+    <string name="sign">签到</string>
+    <string name="area">地区</string>
+    <!--  knowledge -->
+    <string name="home_search_keyword_hint">请输入关键字进行搜索</string>
+    <!--  title -->
+    <string name="home">首页</string>
+    <string name="rank_list">排行榜</string>
+    <string name="map">地图</string>
+    <string name="setting">设置</string>
+    <string name="setting_language">语言设置</string>
+    <string name="setting_check_update">检查更新</string>
+    <string name="simplified_chinese">简体中文</string>
+    <string name="america_english">美国英语</string>
+    <!-- login -->
+    <string name="login_forget">忘记密码？</string>
+    <string name="login_other_way">其他方式登录</string>
+    <string name="hint_pw_input">请输入密码</string>
+    <string name="hint_phone_input">请输入手机号码</string>
+    <string name="common_phone_input_error">手机号输入不正确</string>
+    <string name="common_password_input_error">请输入密码</string>
+    <string name="common_password_input_unlike">两次密码输入不一致，请重新输入</string>
+    <!-- 注册 -->
+    <string name="register_title">注册</string>
+    <string name="register_hint">手机号仅用于登录和保护账号安全</string>
+    <string name="register_password_hint1">设置6&#8211;18位登录密码</string>
+    <string name="register_password_hint2">请再次输入一次密码</string>
+    <!-- code -->
+    <string name="common_code_input_hint">请输入验证码</string>
+    <string name="common_code_send">发送验证码</string>
+    <string name="common_code_send_hint">验证码已发送，请注意查收</string>
+    <string name="common_code_error_hint">验证码错误，请检查输入</string>
+    <!-- setting -->
+    <string name="cache_clear">清除缓存</string>
+    <string name="multi_setting">多功能设备</string>
+    <string name="finger_print">指纹解锁</string>
+    <string name="set_gesture">设置手势</string>
+    <string name="verify_gesture">手势解锁</string>
+    <string name="act_manage">Activity管理</string>
+    <string name="signature">签名</string>
+    <string name="Settings_TextSize_TxtSizeAdjustNote">滑动下面的滑块，可设置字体大小</string>
+    <string name="Settings_TextSize_Slide">拖动下方滑块</string>
+    <string name="Settings_TextSize_Normal">正常</string>
+    <string name="Settings_General_FontSize">字体大小</string>
+    <!-- lan -->
+    <string name="lan_chinese">简体中文</string>
+    <string name="lan_en">英文</string>
+    <string name="lan_ja">日文</string>
+    <string name="lan_de">德文</string>
+    <string name="lan_change_confirm">确定更改吗？</string>
+    <string name="lan_system">跟随系统</string>
+    <!-- lucky panel -->
+    <string name="lucky_panel_title">Wheel of Fortune</string>
+    <string name="lucky_panel_times_left">times left</string>
+    <string name="lucky_panel_fortune_list">Check out your fortune list</string>
+    <!-- network -->
+    <string name="common_network_error">当前网络不可用，请检查网络设置</string>
+    <string name="status_layout_no_data">空空如也</string>
+    <string name="status_layout_error_request">请求出错，点击重试</string>
+    <string name="status_layout_error_network">网络错误，点击重试</string>
+    <!-- network end-->
+    <!-- hint -->
+    <string name="hint_home_search_keyword">请输入关键字进行搜索</string>
+    <!-- hint end -->
+    <!-- update -->
+    <string name="update_title">发现新版本</string>
+    <string name="update_content">更新内容</string>
+    <string name="app_updater_start_notification_title">版本更新</string>
+    <string name="app_updater_start_notification_content">正在获取下载数据…</string>
+    <string name="app_updater_progress_notification_title">版本更新</string>
+    <string name="app_updater_progress_notification_content">正在下载…</string>
+    <string name="app_updater_finish_notification_title">下载完成</string>
+    <string name="app_updater_finish_notification_content">点击安装</string>
+    <string name="app_updater_error_notification_title">下载失败</string>
+    <string name="app_updater_error_notification_content">点击关闭通知</string>
+    <string name="app_updater_error_notification_content_re_download">点击重新下载</string>
+    <!-- update end  -->
+    <!-- permission -->
+    <string name="permission_read_write_storage">请打开读写存储卡权限</string>
+    <string name="permission_location_storage">为了显示您在地图模式下的初始定位，请您允许本应用向您获取设备定位信息权限\n" +"*注不授权将影响功能的使用</string>
+    <string name="returned_from_app_settings_to_activity">
+        Returned from app settings to MainActivity with the following permissions:
+        \nLocation &amp; Contacts: %s
+    </string>
+    <!-- permission end  -->
+    <!-- other -->
+    <string name="target">Your Device Target:</string>
+    <string name="stop_service">Stop Push Service</string>
+    <string name="start_service">Start Push service</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="privacy_check_android_edition">本应用为高版本Android设备打造\n感谢您的使用！</string>
+    <string name="confirm_to_clean_cache">确定清除缓存？</string>
+    <string name="about">关于我</string>
+    <string name="about_author"><font color="#85b84f">Android</font>Joephone</string>
+    <string name="copy_right" translatable="false">Copyrights © 2022</string>
+    <string name="digits_password">0123456789abcdefghijklmnopqrstuvwxyz</string>
+    <string name="digits_price">0123456789</string>
+    <string name="digits_id_card">0123456789*#xX</string>
+    <string name="digits_number">0123456789</string>
+    <!--App相关-->
+    <string name="app.install">Install App</string>
+    <string name="app.install_silent">Install App Silent</string>
+    <string name="app.uninstall">Uninstall App</string>
+    <string name="app.uninstall_silent">Uninstall App Silent</string>
+    <string name="app.launch">Launch App</string>
+    <string name="app.close">Close App</string>
+    <string name="app.isDebug">Is Debug</string>
+    <string name="app.get_details_settings">Get App Details Settings</string>
+    <string name="menu_item_activity">ActivityUtils Test</string>
+    <string name="menu_item_app">AppUtils Test</string>
+    <string name="menu_item_clean">CleanUtils Test</string>
+    <string name="menu_item_crash">CrashUtils Test</string>
+    <string name="menu_item_device">DeviceUtils Test</string>
+    <string name="menu_item_handler">HandlerUtils Test</string>
+    <string name="menu_item_image">ImageUtils Test</string>
+    <string name="menu_item_keyboard">KeyboardUtils Test</string>
+    <string name="menu_item_network">NetworkUtils Test</string>
+    <string name="menu_item_phone">PhoneUtils Test</string>
+    <string name="menu_item_process">ProcessUtils Test</string>
+    <string name="menu_item_sdcard">SDCardUtils Test</string>
+    <string name="menu_item_snackbar">SnackbarUtils Test</string>
+    <string name="menu_item_toast">ToastUtils Test</string>
+    <!--Device相关-->
+    <string name="device_shutdown">Shutdown</string>
+    <string name="device_reboot">Reboot</string>
+    <string name="device_reboot_to_recovery">Reboot To Recovery</string>
+    <string name="device_reboot_to_bootloader">Reboot To Bootloader</string>
+    <!--Network相关-->
+    <string name="network_open_wireless_settings">Open Wireless Settings</string>
+    <string name="network_set_data_enabled">Set Data Enabled</string>
+    <string name="network_set_wifi_enabled">Set Wifi Enabled</string>
+    <!--Phone相关-->
+    <string name="phone_dial">Dial</string>
+    <string name="phone_call">Call</string>
+    <string name="phone_send_sms">Send SMS</string>
+    <string name="phone_send_sms_silent">Send SMS Silent</string>
+    <!--Process相关-->
+    <string name="process_kill_background">Kill Background Process</string>
+    <string name="process_kill_all_background">Kill All Background Processes</string>
+    <!--Gallery-->
+    <string name="gallery_save_successful">已保存图片至相册</string>
+    <string name="gallery_save_failed">保存图片失败</string>
+</resources>

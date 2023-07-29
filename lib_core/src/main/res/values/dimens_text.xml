@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 标准文字大小 -->
+    <dimen name="text_standard">14dp</dimen>
+    <dimen name="text_standard_bigger">15dp</dimen>
+    <!-- 12 标准文字大小 -->
+    <dimen name="text_small">12dp</dimen>
+    <!-- 大文字 -->
+    <dimen name="text_big">16dp</dimen>
+
+    <dimen name="size_title">@dimen/size_18</dimen>
+
+</resources>

@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">Wan</string>
+
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <!-- system -->
+    <string name="request_fail">RequestFail</string>
+    <string name="exit_app">Exit App</string>
+    <string name="private_policy">PrivatePolicy</string>
+    <string name="public_notice">Public Notice</string>
+    <string name="crash_restart">Crashed Restart</string>
+    <string name="exit_app_warning">Exiting App Press Once</string>
+    <!-- common -->
+    <string name="id">ID</string>
+    <string name="exit">Exit</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="level">Level</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="nickname">NickName</string>
+    <string name="address">Address</string>
+    <string name="next">Next</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="tip">Tip</string>
+    <string name="skip">Skip</string>
+    <string name="pay">Pay</string>
+    <string name="to_app_setting">App Setting</string>
+    <!-- 4 tab -->
+    <string name="tab_home">Home</string>
+    <string name="tab_hierarchy">Hierarchy</string>
+    <string name="tab_wx_public_account">PublicAccount</string>
+    <string name="tab_me">Me</string>
+    <string name="tab_beauty">Beauty</string>
+    <!--  me -->
+    <string name="user_name">UserName</string>
+    <string name="user_info">UserInfo</string>
+    <string name="my_coin">MyCoin</string>
+    <string name="my_read_record">MyReadRecord</string>
+    <string name="my_score_list">MyScoreList</string>
+    <string name="my_share">MyShare</string>
+    <string name="my_collection">MyCollection</string>
+    <string name="read_later">ReadLater</string>
+    <string name="my_open_source">Open Source</string>
+    <string name="about_me">AboutMe</string>
+    <string name="system_setting">System Setting</string>
+    <string name="sign">Sign</string>
+    <string name="area">Area</string>
+    <!--  knowledge -->
+    <string name="home_search_keyword_hint">Input KeyWord To Search</string>
+    <!--  title -->
+    <string name="home">Home</string>
+    <string name="rank_list">RankList</string>
+    <string name="map">Map</string>
+    <string name="setting">Setting</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_check_update">Check Update</string>
+    <string name="simplified_chinese">Simplified Chinese</string>
+    <string name="america_english">America English</string>
+    <!-- login -->
+    <string name="login_forget">Forget PW？</string>
+    <string name="login_other_way">Login in Other Way</string>
+    <string name="hint_pw_input">PW Input</string>
+    <string name="hint_phone_input">Phone Input</string>
+    <string name="common_phone_input_error">Phone Input Error</string>
+    <string name="common_password_input_error">Password Input</string>
+    <string name="common_password_input_unlike">Password Input Unlike</string>
+    <!-- 注册 -->
+    <string name="register_title">Register</string>
+    <string name="register_hint">Register Hint</string>
+    <string name="register_password_hint1">Register Password Hint1</string>
+    <string name="register_password_hint2">Register Password Hint2</string>
+    <!-- code -->
+    <string name="common_code_input_hint">Code Input Hint</string>
+    <string name="common_code_send">Code Send</string>
+    <string name="common_code_send_hint">Code Send Hint</string>
+    <string name="common_code_error_hint">Code Send Error Hint</string>
+    <!-- setting -->
+    <string name="cache_clear">Cache Clear</string>
+    <string name="multi_setting">Multi Setting</string>
+    <string name="finger_print">Finger Print</string>
+    <string name="set_gesture">Set Gesture</string>
+    <string name="verify_gesture">Verify Gesture</string>
+    <string name="signature">Signature</string>
+    <string name="act_manage">Activity Manage</string>
+    <string name="Settings_TextSize_TxtSizeAdjustNote">Drag the block below to change text size</string>
+    <string name="Settings_TextSize_Slide">Slide Around</string>
+    <string name="Settings_TextSize_Normal">Standard</string>
+    <string name="Settings_General_FontSize">Text Size</string>
+    <!-- lan -->
+    <string name="lan_chinese">Chinese</string>
+    <string name="lan_en">English</string>
+    <string name="lan_ja">Japanese</string>
+    <string name="lan_de">Deutsch</string>
+    <string name="lan_change_confirm">Change Confirm？</string>
+    <string name="lan_system">System Lan</string>
+    <!-- lucky panel -->
+    <string name="lucky_panel_title">Wheel of Fortune</string>
+    <string name="lucky_panel_times_left">times left</string>
+    <string name="lucky_panel_fortune_list">Check out your fortune list</string>
+    <!-- network end-->
+    <!-- hint -->
+    <string name="hint_home_search_keyword">Enter keywords to search</string>
+    <!-- hint end -->
+    <!-- update -->
+    <string name="common_network_error">Network Error</string>
+    <string name="status_layout_no_data">空空如也</string>
+    <string name="status_layout_error_request">请求出错，点击重试</string>
+    <string name="status_layout_error_network">网络错误，点击重试</string>
+    <!-- update -->
+    <string name="update_title">New Version Found</string>
+    <string name="update_content">Update 1</string>
+    <string name="app_updater_start_notification_title">版本更新</string>
+    <string name="app_updater_start_notification_content">正在获取下载数据…</string>
+    <string name="app_updater_progress_notification_title">版本更新</string>
+    <string name="app_updater_progress_notification_content">正在下载…</string>
+    <string name="app_updater_finish_notification_title">下载完成</string>
+    <string name="app_updater_finish_notification_content">点击安装</string>
+    <string name="app_updater_error_notification_title">下载失败</string>
+    <string name="app_updater_error_notification_content">点击关闭通知</string>
+    <string name="app_updater_error_notification_content_re_download">点击重新下载</string>
+    <!-- update end  -->
+    <!-- permission -->
+    <string name="permission_read_write_storage">Need Read Write Storage Permission</string>
+    <string name="permission_location_storage">This app needs access to your location and contacts to know where and who you are.</string>
+    <string name="returned_from_app_settings_to_activity">
+        Returned from app settings to MainActivity with the following permissions:
+        \nLocation &amp; Contacts: %s
+    </string>
+    <!-- permission end  -->
+    <!-- other -->
+    <string name="target">Your Device Target:</string>
+    <string name="stop_service">Stop Push Service</string>
+    <string name="start_service">Start Push service</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="privacy_check_android_edition">本应用为高版本Android设备打造\n感谢您的使用！</string>
+    <string name="confirm_to_clean_cache">Confirm Clean Cache?</string>
+    <string name="about">About Me</string>
+    <string name="about_author"><font color="#85b84f">Android</font>Joephone</string>
+    <string name="copy_right" translatable="false">Copyrights © 2022</string>
+    <string name="digits_password">0123456789abcdefghijklmnopqrstuvwxyz</string>
+    <string name="digits_price">0123456789</string>
+    <string name="digits_id_card">0123456789*#xX</string>
+    <string name="digits_number">0123456789</string>
+    <!--App相关-->
+    <string name="app.install">Install App</string>
+    <string name="app.install_silent">Install App Silent</string>
+    <string name="app.uninstall">Uninstall App</string>
+    <string name="app.uninstall_silent">Uninstall App Silent</string>
+    <string name="app.launch">Launch App</string>
+    <string name="app.close">Close App</string>
+    <string name="app.isDebug">Is Debug</string>
+    <string name="app.get_details_settings">Get App Details Settings</string>
+    <string name="menu_item_activity">ActivityUtils</string>
+    <string name="menu_item_app">AppUtils</string>
+    <string name="menu_item_clean">CleanUtils</string>
+    <string name="menu_item_crash">CrashUtils</string>
+    <string name="menu_item_device">DeviceUtils</string>
+    <string name="menu_item_handler">HandlerUtils</string>
+    <string name="menu_item_image">ImageUtils</string>
+    <string name="menu_item_keyboard">KeyboardUtils</string>
+    <string name="menu_item_network">NetworkUtils</string>
+    <string name="menu_item_phone">PhoneUtils</string>
+    <string name="menu_item_process">ProcessUtils</string>
+    <string name="menu_item_sdcard">SDCardUtils</string>
+    <string name="menu_item_snackbar">SnackbarUtils</string>
+    <string name="menu_item_toast">ToastUtils</string>
+    <!--Device相关-->
+    <string name="device_shutdown">Shutdown</string>
+    <string name="device_reboot">Reboot</string>
+    <string name="device_reboot_to_recovery">Reboot To Recovery</string>
+    <string name="device_reboot_to_bootloader">Reboot To Bootloader</string>
+    <!--Network相关-->
+    <string name="network_open_wireless_settings">Open Wireless Settings</string>
+    <string name="network_set_data_enabled">Set Data Enabled</string>
+    <string name="network_set_wifi_enabled">Set Wifi Enabled</string>
+    <!--Phone相关-->
+    <string name="phone_dial">Dial</string>
+    <string name="phone_call">Call</string>
+    <string name="phone_send_sms">Send SMS</string>
+    <string name="phone_send_sms_silent">Send SMS Silent</string>
+    <!--Process相关-->
+    <string name="process_kill_background">Kill Background Process</string>
+    <string name="process_kill_all_background">Kill All Background Processes</string>
+    <!--Gallery-->
+    <string name="gallery_save_successful">Gallery Save Successful</string>
+    <string name="gallery_save_failed">Gallery Save Failed</string>
+</resources>
