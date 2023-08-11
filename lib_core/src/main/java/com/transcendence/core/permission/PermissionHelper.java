@@ -8,7 +8,6 @@ import androidx.annotation.NonNull;
 import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.XXPermissions;
 import com.transcendence.core.utils.log.LogUtils;
-import com.zyq.easypermission.PermissionPool;
 
 import java.util.List;
 
@@ -107,7 +106,11 @@ public class PermissionHelper {
      * @param permissionCallback 权限处理完毕的回调
      */
     public void requestLocationPermissions(final PermissionCallback permissionCallback) {
-        requestAllPermissions(PermissionPool.GROUP.LOCATION,permissionCallback);
+        String[] permissions = new String[]{
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION,
+        };
+        requestAllPermissions(permissions,permissionCallback);
     }
 
 

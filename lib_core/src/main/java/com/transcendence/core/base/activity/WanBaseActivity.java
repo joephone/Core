@@ -15,7 +15,7 @@ import org.greenrobot.eventbus.EventBus;
  * @Edition 1.0
  * @EditionHistory
  */
-public abstract class WanBaseActivity extends PermissionWithExplainActivity {
+public abstract class WanBaseActivity extends TitleBarActivity {
 
 
     @Override
