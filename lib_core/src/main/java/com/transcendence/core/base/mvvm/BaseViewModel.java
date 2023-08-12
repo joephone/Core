@@ -7,8 +7,8 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleOwner;
 
-import com.transcendence.core.base.listener.IBaseViewModel;
 import com.transcendence.core.base.livedata.SingleLiveData;
+import com.transcendence.core.base.mvvm.listener.IBaseViewModel;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.GenericArrayType;
