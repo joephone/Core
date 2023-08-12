@@ -6,7 +6,7 @@ import com.transcendence.core.BuildConfig;
 
 
 /**
- * Created by Joephone on 2017/12/25.
+ * Created on 2017/12/25.
  * 日志封装
  * StackTrace(堆栈轨迹)存放的就是方法调用栈的信息，每次调用一个方法会产生一个方法栈，
  * 当前方法调用另外一个方法时会使用栈将当前方法的现场信息保存在此方法栈当中，获取这个栈就可以得到方法调用的详细过程。
