@@ -24,10 +24,10 @@ dependencies {
     api config.dependencies.arouterApi
     annotationProcessor config.dependencies.arouterCompiler
 
-
     api config.dependencies.appcompat
     api config.dependencies.design
     api config.dependencies.material
+    api config.dependencies.androidxAactivity
 
     api config.dependencies.banner
     api config.dependencies.smartRefreshLayout
@@ -45,6 +45,7 @@ dependencies {
     api config.dependencies.eventbus
 //    api config.dependencies.mmkv
 
+    api config.dependencies.permissionx
     api config.dependencies.XXPermissions
 
     api config.dependencies.smartRefreshLayout

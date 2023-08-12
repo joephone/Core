@@ -1,10 +1,8 @@
-package com.transcendence.core.base.activity;
+package com.transcendence.core.base.mvvm.activity;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
-
-import com.transcendence.core.base.action.ToastAction;
 
 import org.greenrobot.eventbus.EventBus;
 

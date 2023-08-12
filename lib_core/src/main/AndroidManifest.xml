@@ -13,16 +13,6 @@
             android:launchMode="singleTask"
             />
 
-        <activity android:name=".publicModule.picture.act.PictureViewActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/ImageTheme"
-            />
-
-
-        <service
-            android:name=".publicModule.picture.service.SaveImageService"
-            />
-
 
 
     </application>

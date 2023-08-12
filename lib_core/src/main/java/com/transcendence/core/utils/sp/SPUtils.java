@@ -2,11 +2,9 @@ package com.transcendence.core.utils.sp;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.util.Log;
-
 
 import com.transcendence.core.base.app.CoreApp;
-import com.transcendence.core.global.Global;
+import com.transcendence.core.utils.log.LogUtils;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -60,7 +58,7 @@ public class SPUtils {
         if (CoreApp.getAppContext() != null) {
             sp = CoreApp.getAppContext().getSharedPreferences(spName, mode);
         } else {
-            Log.d(Global.TAG,"CoreApp.getAppContext() == null");
+            LogUtils.d("CoreApp.getAppContext() == null");
         }
     }
 

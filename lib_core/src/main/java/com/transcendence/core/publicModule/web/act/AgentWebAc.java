@@ -3,20 +3,18 @@ package com.transcendence.core.publicModule.web.act;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.util.Log;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import com.alibaba.android.arouter.utils.TextUtils;
 import com.just.agentweb.AgentWeb;
 import com.transcendence.core.R;
-import com.transcendence.core.base.activity.BaseMvvmActivity;
+import com.transcendence.core.base.mvvm.activity.BaseMvvmActivity;
 import com.transcendence.core.base.mvvm.BaseViewModel;
 import com.transcendence.core.databinding.ActivityAgentwebBinding;
 import com.transcendence.core.utils.log.LogUtils;

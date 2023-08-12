@@ -1,4 +1,4 @@
-package com.transcendence.core.base.fragment;
+package com.transcendence.core.base.mvvm.fragment;
 
 import android.os.Bundle;
 import android.util.SparseArray;

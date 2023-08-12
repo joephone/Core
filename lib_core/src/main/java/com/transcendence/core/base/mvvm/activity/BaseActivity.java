@@ -1,4 +1,4 @@
-package com.transcendence.core.base.activity;
+package com.transcendence.core.base.mvvm.activity;
 
 import android.content.Context;
 import android.content.Intent;

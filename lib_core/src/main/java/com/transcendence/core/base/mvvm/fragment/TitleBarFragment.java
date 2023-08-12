@@ -1,4 +1,4 @@
-package com.transcendence.core.base.fragment;
+package com.transcendence.core.base.mvvm.fragment;
 
 import android.view.View;
 import android.widget.FrameLayout;

@@ -1,4 +1,4 @@
-package com.transcendence.core.base.fragment;
+package com.transcendence.core.base.mvvm.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +11,6 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.transcendence.core.base.mvvm.BaseViewModel;

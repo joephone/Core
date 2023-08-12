@@ -57,6 +57,7 @@ ext {
             constraintlayout                : "androidx.constraintlayout:constraintlayout:$version.constraintlayout",
             design                          : "com.android.support:design:$version.supportSdkVersion",
             material                        : "com.google.android.material:material:$version.material",
+            androidxAactivity               :  "androidx.activity:activity:1.2.4",
 
             gson                            : "com.google.code.gson:gson:$version.gson",
             eventbus                        : "org.greenrobot:eventbus:$version.eventbus",
@@ -99,8 +100,11 @@ ext {
 
             // dao
             greendao                        : "org.greenrobot:greendao:$version.greendao",
+
             //permission
             XXPermissions                   : 'com.github.getActivity:XXPermissions:18.2',
+            //带说明的动态权限
+            permissionx                     : "com.guolindev.permissionx:permissionx:1.6.1",
 
     ]
 

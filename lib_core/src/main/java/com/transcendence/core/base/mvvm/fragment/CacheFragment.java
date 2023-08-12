@@ -1,4 +1,4 @@
-package com.transcendence.core.base.fragment;
+package com.transcendence.core.base.mvvm.fragment;
 
 /**
  * @Author Joephone on 2022/8/2 0002 下午 5:46
